@@ -11,6 +11,7 @@ import ReactLogo from '../components/ReactLogo';
 import Rings from '../components/Rings';
 import Cube from '../components/Cube';
 import MainpageCamera from '../components/MainpageCamera';
+import Button from '../components/Button';
 const MainPage = () => {
   // const x = useControls('HackerRoom', {positionX: {
   //   value: 2.5,
@@ -45,7 +46,7 @@ const MainPage = () => {
 // })
 const isSmall = useMediaQuery({maxWidth: 440})
 const isMobile = useMediaQuery({maxWidth: 768})
-const isTablet = useMediaQuery({maxWidth: 1024})
+const isTablet = useMediaQuery({minWidth:768, maxWidth: 1024})
 const sizes = calculateSizes(isSmall, isMobile, isTablet )
   return (
     <section className='min-h-screen w-full flex flex-col relative'>
@@ -80,6 +81,11 @@ const sizes = calculateSizes(isSmall, isMobile, isTablet )
             </Suspense>
           
           </Canvas>
+        </div>
+        <div className='absolute bottom-7 left-0 right-0 w-full z-10 c-space'>
+          <a href="" className='w-fit'>
+          <Button name="Know more about me" isBeam containerClass="sm:w-fit w-full sm:min-w-96"/>
+          </a>  
         </div>
     </section>
   )
