@@ -59,7 +59,7 @@ body {
 
   /* hero section */
   .hero_tag {
-    @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-generalsans font-black !leading-normal;
+    @apply text-center xl:text-2xl md:text-xl sm:text-xl text-2xl font-generalsans font-black !leading-normal;
   }
 
   /* about section */
