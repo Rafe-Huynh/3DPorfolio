@@ -54,12 +54,7 @@ const sizes = calculateSizes(isSmall, isMobile, isTablet )
         <p className='sm:text-3xl text-2xl mb-5 font-medium text-white text-center font-generalsans'>
           Hi, This is Rafe Huynh
         </p>
-        <p className='hero_tag text-gray_gradient' >
-        I'm a software engineer.<br/> 
-        I understand the importance of staying ahead in tech. <br/>
-        I'm committed to continuous learning, 
-        eager to add more tools to my developer's arsenal.
-        </p>
+        
         </div>
         <div className='w-full h-full absolute inset-0'>
         
