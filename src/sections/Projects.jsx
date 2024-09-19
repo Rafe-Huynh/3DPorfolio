@@ -31,7 +31,7 @@ const Projects = () => {
                 <div className='p-3 backdrop-filter backdrop:-blur-3xl w-fit rounded-lg ' style={myProjects[0].logoStyle}>
                     <img src={currentProject.logo} alt="logo" className='w-10 h-10 shadow-sm' />
                 </div>
-                <div className='flex flex-col gap-5 text-white-600 my-5'>
+                <div className='flex flex-col gap-3 text-white-600 my-5'>
                     <p className='text-white text-2xl font-semibold animatedText'>{currentProject.title}</p>
                     <p className='animtedText'>
                             {currentProject.desc}
@@ -48,9 +48,13 @@ const Projects = () => {
                                 </div>
                         ))}
                     </div>
+                    <a className='flex items-center cursor-pointer text-white-600' href={currentProject.github} target='_blank' rel="noreferrer">
+                        <p> Github</p>
+                        <img src="/assets/arrow-up.png" className='ml-2 w-3 h-3' alt="arrow"/>
+                    </a>
                     <a className='flex items-center cursor-pointer text-white-600' href={currentProject.href} target='_blank' rel="noreferrer">
-                        <p> Check Live site</p>
-                        <img src="/assets/arrow-up.png" className='w-3 h-3' alt="arrow"/>
+                        <p> Live site</p>
+                        <img src="/assets/arrow-up.png" className='ml-2 w-3 h-3' alt="arrow"/>
                     </a>
                 </div>
                 <div className='flex justify-between items-center mt-7'>

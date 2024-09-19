@@ -25,11 +25,12 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'Podcast',
+      desc: 'Created an advanced podcast creation platform with text-to-audio conversion, AI generated voices, responsive design, and detailed podcast management features for a seamless user experience across all devices.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'Implemented dynamic features including a modern home page showcasing trending podcasts, a discovery page for exploring new content, and a fully functional search for finding podcasts. Robust Authenticate',
+      href: 'https://podcast-peach-phi.vercel.app/',
+      github: 'https://github.com/Rafe-Huynh/podcast',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
@@ -59,14 +60,20 @@ export const navLinks = [
           name: 'Framer Motion',
           path: '/assets/framer.png',
         },
+        {
+          id: 5,
+          name: 'NextJs',
+          path: '/assets/nextjs.png'
+        }
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
+      title: 'Google Docs Clone',
       desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
       subdesc:
         'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      href: 'https://googledoccloned-kcr8kl8tf-rafes-projects-5778443b.vercel.app/',
+      github: 'https://github.com/Rafe-Huynh/googledoc',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
@@ -96,14 +103,20 @@ export const navLinks = [
           name: 'Framer Motion',
           path: '/assets/framer.png',
         },
+        {
+          id: 5,
+          name: 'NextJs',
+          path: '/assets/nextjs.png'
+        }
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Health Management System',
+      desc: 'Designed and developed a full-stack user-friendly interfaces for seamless prompt submission using React and Next.js. Developed a comprehensive patient management system enabling user registration, appointment scheduling, and secure file uploads, with complete responsiveness across all devices using Appwrite services. ',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        'Implemented robust admin functionalities including appointment management, SMS notifications, and performance tracking using Sentry for seamless operation and enhanced user experience.',
+      href: 'https://health-management-gamma.vercel.app/',
+      github: 'https://github.com/Rafe-Huynh/health_management',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -135,14 +148,20 @@ export const navLinks = [
           name: 'Framer Motion',
           path: '/assets/framer.png',
         },
+        {
+          id: 5,
+          name: 'NextJs',
+          path: '/assets/nextjs.png'
+        }
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'Online Banking Platform',
+      desc: 'Integrated Banking Features: Connected multiple bank accounts using Plaid, implemented real-time updates, and added functionalities for viewing account overviews, transaction histories, and transferring funds with Dwolla. ',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+        'Created Responsive Interface: Designed a responsive app that works seamlessly on all devices, allowing users to manage bank accounts, track transactions, and analyze spending easily. ',
+      href: 'https://vercel.com/rafes-projects-5778443b/online-banking',
+      github: 'https://github.com/Rafe-Huynh/online_banking',
       texture: '/textures/project/project4.mp4',
       logo: '/assets/project-logo4.png',
       logoStyle: {
@@ -172,16 +191,22 @@ export const navLinks = [
           name: 'Framer Motion',
           path: '/assets/framer.png',
         },
+        {
+          id: 5,
+          name: 'NextJs',
+          path: '/assets/nextjs.png'
+        }
       ],
     },
     {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+      title: 'Zoom Clone',
+      desc: 'The platform enables secure logins via Clerk, supporting social sign-on and email/password methods. Users can start or join meetings, configure settings, and manage features like recordings, screen sharing, reactions, and participant controls in real-time.',
       subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+        'Additional features include scheduling and viewing past meetings, accessing recordings, and using personal rooms for instant meetings. The platform is fully responsive, ensuring a seamless experience across devices while maintaining privacy and data integrity.',
+      href: 'https://zoom-clone-nine-gamma.vercel.app/',
+      github: 'https://github.com/Rafe-Huynh/zoom_clone',
       texture: '/textures/project/project5.mp4',
-      logo: '/assets/project-logo5.png',
+      logo: '/assets/logo.svg',
       logoStyle: {
         backgroundColor: '#1C1A43',
         border: '0.2px solid #252262',
@@ -209,9 +234,14 @@ export const navLinks = [
           name: 'Framer Motion',
           path: '/assets/framer.png',
         },
+        {
+          id: 5,
+          name: 'NextJs',
+          path: '/assets/nextjs.png'
+        }
       ],
     },
-  ];
+  ]
   export const sidebar = [{
     href: 'https://www.linkedin.com/in/rafe-huynh-251a39218/',
     name: 'Linkedin',
@@ -242,32 +272,3 @@ export const navLinks = [
     };
   };
   
-  export const workExperiences = [
-    {
-      id: 1,
-      name: 'Framer',
-      pos: 'Lead Web Developer',
-      duration: '2022 - Present',
-      title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-      icon: '/assets/framer.svg',
-      animation: 'victory',
-    },
-    {
-      id: 2,
-      name: 'Figma',
-      pos: 'Web Developer',
-      duration: '2020 - 2022',
-      title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-      icon: '/assets/figma.svg',
-      animation: 'clapping',
-    },
-    {
-      id: 3,
-      name: 'Notion',
-      pos: 'Junior Web Developer',
-      duration: '2019 - 2020',
-      title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-      icon: '/assets/notion.svg',
-      animation: 'salute',
-    },
-  ];
