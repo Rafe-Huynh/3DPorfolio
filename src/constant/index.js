@@ -1,3 +1,5 @@
+import {FaGithub, FaLinkedin} from 'react-icons/fa'
+import {HiMailOpen} from 'react-icons/hi'
 export const navLinks = [
     {
       id: 1,
@@ -11,7 +13,7 @@ export const navLinks = [
     },
     {
       id: 3,
-      name: 'Work',
+      name: 'Projects',
       href: '#work',
     },
     {
@@ -210,7 +212,25 @@ export const navLinks = [
       ],
     },
   ];
-  
+  export const sidebar = [{
+    href: 'https://www.linkedin.com/in/rafe-huynh-251a39218/',
+    name: 'Linkedin',
+    size: '40',
+    logo: FaLinkedin
+  },
+  {
+    href: 'https://github.com/Rafe-Huynh',
+    name: 'Github',
+    size: '40',
+    logo: FaGithub
+  },{
+    href: '#contact',
+    name: 'Contact',
+    size: '40',
+    logo: HiMailOpen
+  }
+    
+]
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
     return {
       deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
