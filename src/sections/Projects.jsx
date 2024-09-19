@@ -4,7 +4,7 @@ import { Canvas } from '@react-three/fiber'
 import { Center, OrbitControls } from '@react-three/drei'
 import CanvasLoader from '../components/CanvasLoader'
 import DemoComputer from '../components/DemoComputer'
-
+import Button from '../components/Button'
 const Projects = () => {
     const [selectIndex, setSelectIndex] = useState(0)
     const currentProject = myProjects[selectIndex]
@@ -17,6 +17,12 @@ const Projects = () => {
                 return prevIndex === projectLength - 1 ? 0 : prevIndex + 1
             }
         })
+    }
+    const isBeam = () => {
+        <span className='relative flex h-3 w-3'>
+                    <span className='btn-ping'/>
+                    <span className='btn-ping_dot'/>
+                </span>
     }
   return (
     <section className='c-space my-20'>
@@ -52,6 +58,10 @@ const Projects = () => {
                         <p> Github</p>
                         <img src="/assets/arrow-up.png" className='ml-2 w-3 h-3' alt="arrow"/>
                     </a>
+                    <span className='relative flex h-3 w-3 ml-10'>
+                    <span className='btn-ping'/>
+                    <span className='btn-ping_dot'/>
+                </span>
                     <a className='flex items-center cursor-pointer text-white-600' href={currentProject.href} target='_blank' rel="noreferrer">
                         <p> Live site</p>
                         <img src="/assets/arrow-up.png" className='ml-2 w-3 h-3' alt="arrow"/>
@@ -61,6 +71,7 @@ const Projects = () => {
                         <button className='arrow-btn' onClick={() => handleNavigation('previous')}>
                             <img src="/assets/left-arrow.png" alt="left" className='w-4 h-4'/>
                         </button>
+                        
                         <button className='arrow-btn' onClick={() => handleNavigation('next')}>
                             <img src="/assets/right-arrow.png" alt="left" className='w-4 h-4'/>
                         </button>
