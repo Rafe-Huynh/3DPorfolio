@@ -58,11 +58,11 @@ const Projects = () => {
                         <p> Github</p>
                         <img src="/assets/arrow-up.png" className='ml-2 w-3 h-3' alt="arrow"/>
                     </a>
-                    <span className='relative flex h-3 w-3 ml-10'>
+                    <span className='relative flex h-3 w-3 ml-8'>
                     <span className='btn-ping'/>
                     <span className='btn-ping_dot'/>
                 </span>
-                    <a className='flex items-center cursor-pointer text-white-600' href={currentProject.href} target='_blank' rel="noreferrer">
+                    <a className='flex items-center cursor-pointer text-white-600 mr-2' href={currentProject.href} target='_blank' rel="noreferrer">
                         <p> Live site</p>
                         <img src="/assets/arrow-up.png" className='ml-2 w-3 h-3' alt="arrow"/>
                     </a>
