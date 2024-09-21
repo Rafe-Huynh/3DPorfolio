@@ -18,14 +18,9 @@ const Projects = () => {
             }
         })
     }
-    const isBeam = () => {
-        <span className='relative flex h-3 w-3'>
-                    <span className='btn-ping'/>
-                    <span className='btn-ping_dot'/>
-                </span>
-    }
+    
   return (
-    <section className='c-space my-20'>
+    <section className='c-space my-20' id='projects'>
         <p className='head-text'>
             Projects
         </p>

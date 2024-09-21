@@ -51,7 +51,7 @@ const isMobile = useMediaQuery({maxWidth: 768})
 const isTablet = useMediaQuery({minWidth:768, maxWidth: 1024})
 const sizes = calculateSizes(isSmall, isMobile, isTablet )
   return (
-    <section className='min-h-screen w-full flex flex-col relative'>
+    <section className='min-h-screen w-full flex flex-col relative' id="home">
         <div className='w-full mx-auto flex-col sm:mt-36 mt-20 c-space gap-3'>
         <p className='sm:text-3xl text-2xl mb-5 font-medium text-white text-center font-generalsans'>
           Hi, This is Rafe Huynh
