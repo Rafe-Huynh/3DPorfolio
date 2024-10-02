@@ -14,6 +14,7 @@ import MainpageCamera from '../components/MainpageCamera';
 import Button from '../components/Button';
 import Github from '../components/Github';
 import Python from '../components/Python';
+import Space from '../components/Space'
 const MainPage = () => {
   // const x = useControls('HackerRoom', {positionX: {
   //   value: 2.5,
@@ -73,6 +74,7 @@ const sizes = calculateSizes(isSmall, isMobile, isTablet )
               <Cube position={sizes.cubePosition} />
               <Github position={sizes.githubPosition} />
               <Python position={sizes.pythonPosition} />
+             
             </group>
             <ambientLight intensity={1}/>
             <directionalLight position={[10,10,10]} intensity={0.5}/>
