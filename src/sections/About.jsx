@@ -94,6 +94,18 @@ const About = () => {
                 Graduated from Hunter College of The City University of New York 
               </p>
             </div>
+            
+            </div>
+            <div className='grid-container2'>
+            <img src="assets/graduate.png" alt="center" className="w-full sm:h-[266px] h-fit object-contain" />
+
+            <div>
+              <p className="grid-headtext">Master in Data Science</p>
+              <p className="grid-subtext">
+                CUNY Graduate Center
+              </p>
+            </div>
+            
             </div>
           </div>
           </div>
